@@ -1,0 +1,91 @@
+@keyframes rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+}
+
+
+.w3-bar {
+  display: flex;
+}
+
+.w3-black {
+  background-image: radial-gradient(yellow 5%,
+      pink 10%,
+      black 80%);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+.w3-bar-item {
+  display: inline;
+  color: pink;
+  font-size: 25px;
+
+}
+
+.w3-button {
+  color: black;
+
+}
+
+.w3-button:hover {
+  color: pink;
+}
+
+body {
+  background-color: black;
+}
+
+.welcome {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ordinary {
+  transform: rotate(20deg);
+}
+
+.Aurora {
+  font-size: 90px;
+  font-family:
+    /*find a good font that works with the color animation*/
+  ;
+  color: transparent;
+  text-align: center;
+  text-shadow: 5px 1px 2px pink, 0 0 25px blue, 20px 20px 25px darkblue;
+  animation: effect 2s linear infinite;
+
+}
+
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(#008000, #00FF00);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3CE7D7, #000FFF);
+    -webkit-background-clip: text;
+  }
+}
+
+.photothing {
+  color: red;
+}
+
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
