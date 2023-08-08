@@ -75,7 +75,17 @@ border: 5px outset red;
 border-radius: 30%;
 width: 350px;
 text-align: center;
-align-items: center;
 margin-right: auto;
 margin-left: auto;
+  }
+
+  .prevarticle {
+    border: 6px ridge brown;
+    height: 200px;
+    width: 550px;
+    border-radius: 40%;
+    text-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
