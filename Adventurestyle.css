@@ -1,0 +1,140 @@
+body {
+    background-color:rgb(13, 13, 14);
+}
+
+.w3-bar-item {
+    display: inline;
+    color: pink;
+    font-size: 25px;
+  
+  }
+
+  .w3-button {
+    color: black;
+  
+  }
+
+  .w3-button:hover {
+    color: pink;
+  }
+
+  .w3-black {
+    background-image: radial-gradient(yellow 5%,
+        pink 10%,
+        black 80%);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .guestbook {
+    text-align: center;
+    font-size: 50px;
+    border: 10px groove red;
+  border-radius: 50px;
+  position: relative;
+  transform: translateY(40px);
+  
+  
+  }
+
+
+
+/*start of quest room */
+
+.quest {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: auto;
+    
+    }
+
+
+  body {
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient(
+    black,
+    black,
+      darkgray);
+    font-family: Arial, sans-serif;
+  }
+  
+  .room {
+    width: 400px;
+    height: 300px;
+    background-color: #88cc88;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .door {
+    width: 120px;
+    height: 180px;
+    background-color: #ffaa00;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 1s, background-color 0.5s;
+  }
+  
+  .key {
+    width: 2px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 30px; /* Adjust vertical position */
+    right: 30px; /* Adjust horizontal position */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .door.unlocked {
+    background-color: #00ff00;
+  }
+  
+  .chest {
+    width: 100px;
+    height: 100px;
+    background-color: #663366;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+  }
+  
+  .chest.unlocked {
+    background-color: #cc9933;
+  }
+  
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+ 

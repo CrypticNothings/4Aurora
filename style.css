@@ -47,6 +47,8 @@ body {
 
 .ordinary {
   transform: rotate(20deg);
+  color: aqua;
+  font-family:cursive;
 }
 
 .Aurora {
@@ -89,3 +91,7 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
+
+}
+
