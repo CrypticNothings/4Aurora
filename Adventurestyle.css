@@ -1,11 +1,28 @@
 body {
-    background-color:rgb(13, 13, 14);
+  background-color: rgb(13, 13, 14);
+  text-align: center; /* Center the content */
+  margin: 0; /* Reset default margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
+.w3-bar {
+  background-image: radial-gradient(yellow 5%, pink 10%, black 80%);
+  width: 100%;
+  padding: 15px 0;
+  margin: 0;
+}
+
+
+
 .w3-bar-item {
-    display: inline;
     color: pink;
-    font-size: 25px;
+    font-size: 2px;
+    margin: 0 10px;
   
   }
 
@@ -28,14 +45,12 @@ body {
   }
 
   .guestbook {
-    text-align: center;
-    font-size: 50px;
-    border: 10px groove red;
+  font-size: 20px; /* Decrease font size for better fit */
+  border: 10px groove red;
   border-radius: 50px;
-  position: relative;
-  transform: translateY(40px);
-  
-  
+  padding: 10px; /* Add padding for better spacing */
+  margin-bottom: 20px; /* Add margin to create space */
+  transform: translateY(40px); /* maybe delete */
   }
 
 
@@ -44,24 +59,15 @@ body {
 
 .quest {
     text-align: center;
-    margin-left: 300px;
-    margin-right: auto;
-    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Add margin for spacing */
     }
 
 
-  body {
-    margin: 0;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: radial-gradient(
-    black,
-    black,
-      darkgray);
-    font-family: Arial, sans-serif;
-  }
+  
   
   .room {
     width: 400px;
