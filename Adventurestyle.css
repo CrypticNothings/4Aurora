@@ -1,5 +1,7 @@
 body {
     background-color:rgb(13, 13, 14);
+    color:white;
+    font-style:unset;
 }
 
 .w3-bar-item {
@@ -79,7 +81,7 @@ body {
   .room {
     width: 400px;
     height: 300px;
-    background-color: #88cc88;
+    background-image: url('https://t4.ftcdn.net/jpg/01/41/11/07/360_F_141110738_NB7vEfZJabNF1UXQadkWl0QGzXyVLmlY.jpg');
     position: relative;
     overflow: hidden;
     transition: background-color 0.5s;
@@ -87,12 +89,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 30%;
   }
   
   .door {
     width: 120px;
     height: 180px;
-    background-color: #ffaa00;
+    color: red;
+    background-color: black;
     position: absolute;
     bottom: 20px;
     display: flex;
@@ -106,14 +110,14 @@ body {
   .key {
     width: 2px;
     height: 2px;
-    background-color: black;
+    background-color: yellow;
     position: absolute;
     bottom: 30px; /* Adjust vertical position */
     right: 30px; /* Adjust horizontal position */
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    cursor: help;
     border-radius: 50%;
   }
   
@@ -124,7 +128,9 @@ body {
   .chest {
     width: 100px;
     height: 100px;
-    background-color: #663366;
+    color: white;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFcZPU9HH7Fxv36KisWGHnuEmDyPf1TpnM7g&usqp=CAU');
+    background-size: 100%;
     position: absolute;
     bottom: 20px;
     display: flex;
@@ -142,11 +148,12 @@ body {
   .button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #3366cc;
-    color: #fff;
-    border: none;
+    background-color: black;
+    color: red;
+    border: 3px outset red;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: crosshair;
+    z-index:1;
   }
   
 
