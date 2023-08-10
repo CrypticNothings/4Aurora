@@ -6,8 +6,13 @@ body {
     display: inline;
     color: pink;
     font-size: 25px;
+    margin: 0 10px;
   
   }
+
+
+
+
 
   .w3-button {
     color: black;
@@ -29,14 +34,20 @@ body {
 
   .guestbook {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     border: 10px groove red;
+    padding: 10px;
+    margin-bottom: 20px;
   border-radius: 50px;
   position: relative;
   transform: translateY(40px);
-  
-  
-  }
+   }
+
+   .guestb {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+   }
 
 
 
@@ -44,8 +55,10 @@ body {
 
 .quest {
     text-align: center;
-    margin-left: 300px;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
     }
 
