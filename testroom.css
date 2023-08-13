@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:linear-gradient(black,blue, darkgray);
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#quiz {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#quiz h2 {
+    margin-top: 0;
+}
+
+.question {
+    margin-bottom: 15px;
+}
