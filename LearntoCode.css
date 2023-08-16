@@ -66,3 +66,35 @@ iframe {
 #styledPreview {
     background-color: rgb(194, 194, 194);
 }
+
+
+
+.w3-bar-item {
+    display: inline;
+    color: pink;
+    font-size: 25px;
+    margin: 0 10px;
+  
+  }
+
+
+
+
+
+  .w3-button {
+    color: black;
+  
+  }
+
+  .w3-button:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .w3-black {
+    background-image: radial-gradient(rgb(0, 0, 0) 5%,
+        rgb(18, 2, 161) 10%,
+        black 80%);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+  }
